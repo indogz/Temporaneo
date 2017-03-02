@@ -8,13 +8,16 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.genji.am012_fragment.MainActivity">
+    tools:context="com.example.genji.am012_fragment.Questions"
+    android:weightSum="1">
 
 
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="264dp"
         android:layout_gravity="center_horizontal"
-        android:id="@+id/fragment"/>
+        android:id="@+id/fragment"
+        android:layout_weight="0.30" />
+
 </LinearLayout>
