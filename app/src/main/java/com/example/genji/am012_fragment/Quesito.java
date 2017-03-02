@@ -11,13 +11,14 @@ public class Quesito {
     protected String a2;
     protected String a3;
     protected String a4;
-    private String correctA;
+    int  correctA;
 
     public Quesito() {
-        correctA = q = a1 = a2 = a3 = a4 = null;
+        q = a1 = a2 = a3 = a4 = null;
+
     }
 
-    public Quesito(String q, String a1, String a2, String a3, String a4, String correctA) {
+    public Quesito(String q, String a1, String a2, String a3, String a4, int correctA) {
         this.q = q;
         this.a1 = a1;
         this.a2 = a2;
@@ -46,6 +47,6 @@ public class Quesito {
         return a4;
     }
 
-    public String getCorrectA() { return correctA;}
+    public int getCorrectA() { return correctA;}
 
 }

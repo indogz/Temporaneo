@@ -1,6 +1,7 @@
 package com.example.genji.am012_fragment;
 
 import android.app.Fragment;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +11,8 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import java.util.Arrays;
+
+import static android.app.Activity.RESULT_OK;
 
 /**
  * Created by Matteo on 1/29/16.
@@ -148,4 +151,6 @@ public class Question extends Fragment {
 
         myRadioGroup = ((RadioGroup) getView().findViewById(R.id.yourRadioGroup));
     }
+
+
 }
